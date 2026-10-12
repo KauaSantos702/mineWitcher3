@@ -1,0 +1,1 @@
+Upstream: https://github.com/rejuvenate7/WitcherNativeBridge commit 415e1c1 (2026-10-08), MIT. Unmodified.

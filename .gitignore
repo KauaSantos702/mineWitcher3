@@ -1,0 +1,27 @@
+# Builds
+native/build*/
+fabric/build/
+fabric/.gradle/
+fabric/run/
+*.pdb
+*.ilk
+
+# Ferramentas locais
+tools/.venv/
+__pycache__/
+*.pyc
+
+# Dados de teste do jogo (logs com caminhos da maquina, capturas de colisao, dumps)
+research/field/
+*.log
+*.dmp
+mw3_colcapture.bin
+
+# Skin pessoal da conta Minecraft (cada um usa a sua; o MC baixa sozinho)
+skin/
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+*.iml

@@ -1,0 +1,1 @@
+Ultimate ASI Loader v9.7.4 x64 (https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/tag/v9.7.4), dinput8.dll renomeado para winmm.dll. SHA-256: fa266e3513d02c08a1b808f28c10538a489eaffaa4b0707f7cc1066e71b5afd7

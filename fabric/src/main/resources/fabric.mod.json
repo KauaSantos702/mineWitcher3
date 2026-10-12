@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "minewitcher3",
+  "version": "${version}",
+  "name": "MineWitcher3",
+  "description": "Hidden Minecraft client driven by The Witcher 3 (Minecraft physics, inventory and viewmodels inside W3). Derived from SkyCraft by chasmlol (MIT).",
+  "authors": ["MineWitcher3 contributors"],
+  "contributors": ["chasmlol (SkyCraft, original author of most of this code)"],
+  "contact": {
+    "sources": "https://github.com/chasmlol/skycraft"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["dev.minewitcher3.MineWitcher3"],
+    "client": ["dev.minewitcher3.client.MineWitcher3Client"]
+  },
+  "mixins": [
+    "minewitcher3.mixins.json",
+    { "config": "minewitcher3.client.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

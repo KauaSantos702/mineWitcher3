@@ -1,0 +1,7 @@
+; Linhas adicionadas pelo MineWitcher3 nas secoes [Exploration], [Combat], [Swimming] e [Horse]
+; (F5 = camera nao entra aqui: o motor usa F5 fixo para quicksave; mw3.asi intercepta.)
+; do arquivo Documentos\The Witcher 3\input.settings (o install.ps1 faz isso automaticamente).
+IK_F6=(Action=MW3_ToggleMode)
+IK_F7=(Action=MW3_PlaceBlock)
+IK_F8=(Action=MW3_BreakBlock)
+IK_F9=(Action=MW3_NextBlock)
